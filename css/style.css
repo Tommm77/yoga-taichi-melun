@@ -7667,11 +7667,11 @@ h1, h2, h3, h4, h5,
   padding: 0; }
   .do-list li {
     list-style: none;
-    font-size: 24px;
+    /* font-size: 24px; */
     margin-bottom: 15px;
     font-weight: 300; }
     .do-list li span {
-      color: #fd6b00;
+      color: #FF0000;
       font-size: 22px; }
 
 .ftco-gradient {
