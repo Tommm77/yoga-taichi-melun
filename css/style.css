@@ -7271,8 +7271,8 @@ body {
   font-family: "Work Sans", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.8;
-  font-weight: 400;
-  color: #b3b3b3; }
+  font-weight: 500;
+  color: #000; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -7669,7 +7669,7 @@ h1, h2, h3, h4, h5,
     list-style: none;
     /* font-size: 24px; */
     margin-bottom: 15px;
-    font-weight: 300; }
+    font-weight: 400; }
     .do-list li span {
       color: #FF0000;
       font-size: 22px; }
@@ -8055,7 +8055,7 @@ textarea.form-control {
     font-size: 30px;
     font-weight: 300; }
   .ftco-footer h2.location {
-    font-size: 24px;
+    font-size: 30px;
     color: rgba(255, 255, 255, 0.9); }
   .ftco-footer .ftco-footer-widget ul li a span {
     color: #fff; }
