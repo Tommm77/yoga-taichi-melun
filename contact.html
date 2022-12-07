@@ -84,26 +84,27 @@
 					</div>
 					<div class="col-md-1"></div>
           <div class="col-md-6 ftco-animate">
-            <form action="mailto:artsbienetre@laposte.net" class="contact-form">
+            <form action="https://formsubmit.co/picout.tom@gmail.com" method="POST">
             	<div class="row">
             		<div class="col-md-6">
 	                <div class="form-group">
-	                  <input name="Nom" type="text" class="form-control" placeholder="Nom">
+	                  <input name="Nom" type="text" class="form-control" placeholder="Nom" required>
 	                </div>
                 </div>
                 <div class="col-md-6">
 	                <div class="form-group">
-	                  <input name="email" type="email" class="form-control" placeholder="Email">
+	                  <input name="email" type="email" class="form-control" placeholder="Email" required>
 	                </div>
 	                </div>
               </div>
               <div class="form-group">
-                <input name="text" type="text" class="form-control" placeholder="Sujet">
+                <input name="text" type="text" class="form-control" placeholder="Sujet" required>
               </div>
               <div class="form-group">
-                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
+                <textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Message" required></textarea>
               </div>
               <div class="form-group">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
               </div>
               <input type="submit"value="Envoyer le Message" class="btn btn-primary py-3 px-5">
             </form>
